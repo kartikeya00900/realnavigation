@@ -18,18 +18,13 @@ def take_command():
 
 def program():
     command = take_command()
-
     print(command)
-    
     cmd=(command)
 
     if cmd in command:
         prefix=("http:/")
         suffix=('.com')
         wb.open(prefix+cmd+suffix)
-      
-
-
     else:
         program=='quit'
 
